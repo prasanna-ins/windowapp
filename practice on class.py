@@ -4,11 +4,4 @@ class circle():
     radius=int(input())
     #def __init__(self,radius=int(input())):
      #   self.radius= radius
-    def circuference(self):
-        return 2 * circle.pi * self.radius
-    def area(self):
-        # this is a area function which is used to find the area of the circle
-        return circle.pi * self.radius * self.radius
-#output=circle()
-print(circle().circuference())
-print(circle().area())
+  
